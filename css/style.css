@@ -381,3 +381,37 @@ form .btn{
     background-color: #03a9f4;
 
 }
+
+@media screen and (max-width: 380px){
+    .container{
+        width: 100%;
+        padding: 25px 5px;
+    }
+    .creditcard .front,
+.creditcard .back{
+    width: 320px;
+}
+    #securitycode{
+        margin-top: 22px;
+    }
+    .titulo{
+        font-size: 25px;
+    }
+    form{
+        padding: 16px;
+    }
+}
+@media screen and (max-width: 348px){
+    #securitycode{
+        margin-top: 3px;
+    }
+    .ccicon {
+      
+        top: calc(50% - 1px);
+        
+      }
+      .creditcard .front,
+      .creditcard .back{
+          width: 280px;
+      }
+}

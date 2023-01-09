@@ -1,3 +1,10 @@
+const forme = document.getElementById('form')
+forme.addEventListener('submit', function(e){
+    e.preventDefault()
+    alert("ENVIADO COM SUCESSO!")
+
+})
+
 window.onload = function () {
 
     const name = document.getElementById('name');
