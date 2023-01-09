@@ -381,3 +381,18 @@ form .btn{
     background-color: #03a9f4;
 
 }
+
+@media screen and (max-width: 380px){
+    #securitycode{
+        margin-top: 22px;
+    }
+    
+    form{
+        padding: 16px;
+    }
+}
+@media screen and (max-width: 348px){
+    #securitycode{
+        margin-top: 3px;
+    }
+}
